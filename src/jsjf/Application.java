@@ -3,9 +3,9 @@ import java.util.*;
 
 
 /**
- * 
+ * Application that read the sentence
  * @author omarsanyang
- *
+ *Application that read the sentence
  */
 public class Application {
 
@@ -34,9 +34,10 @@ public class Application {
 		
 	}//end of main class
 	/**
-	 * 
+	 *reverseString reverses the sentence you put 
 	 * @param st
 	 * @return
+	 *04/202
 	 */
 	public static String reverseString(String st) {
 		
@@ -52,7 +53,7 @@ public class Application {
 		if(v.length() < st.length())
 			v += " ";
 		
-		}	
+		}	// end of reverseString 
 		return v;
 		
 	}//end of reverseString
